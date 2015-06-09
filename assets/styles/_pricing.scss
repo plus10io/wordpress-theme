@@ -1,0 +1,76 @@
+#pricing {
+
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 10% 0;
+
+}
+
+	.pricing--plan {
+
+		@include span-columns(9);
+		padding:3em 1em;
+		color: $secondary;
+		text-align: center;
+		border: 1px solid $border;
+
+		&:hover {
+
+			background-color: #fff;
+	  		box-shadow: 2px 5px 10px rgba(2, 19, 24, 0.1);
+	  		z-index: 1;
+		
+		}
+
+
+		h3 {
+
+			font-size: 60%;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+		h2 {
+
+			font-size: 4.5em;
+			color: $primary;
+			margin: 0.2em 0;
+		}
+		ul { 
+
+			margin-bottom: 20px;}
+		li {}
+
+
+		button {
+
+		  border: 2px solid $primary;
+		  padding: 2% 4%;
+		
+
+		}
+	}
+
+
+	#monthly {}
+
+
+	 
+
+	ul.pricing-list	{
+
+		margin-bottom: 20px;
+
+			li:before {
+			color: $primary;
+			content: '+';
+			margin-right: 6px;
+			@include transform(scale(0.9) rotate(-10deg));
+			display: inline-block;
+
+
+		}
+	}
+
+
+
+	

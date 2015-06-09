@@ -1,0 +1,12 @@
+ul.plus li:before {
+
+			content: '+';
+			color: #fff;
+			margin-right: 6px;
+			@include transform(scale(0.9) rotate(-10deg));
+			display: inline-block;
+
+
+		}
+
+

@@ -1,0 +1,44 @@
+.pull-out {
+
+	padding: 4% 12%;
+	background: lighten($base, 75%);
+	color: $base;
+	font-size: 120%;
+	line-height: 1.6;
+	border-radius: 2px;
+	border-top: 4px solid $third;
+	border-right: 1px solid $border;
+	border-left: 1px solid $border;
+	border-bottom: 1px solid $border;
+	margin: 2% 4%;
+
+	a {
+
+		background: $third;
+		padding: 2% 4%;
+		color: #fff;
+		border-radius: 30px;
+
+		&:hover {
+
+			background: darken($third, 5%)
+		}
+	}
+
+}
+
+.half {
+
+	width: 50%;
+	float: left;
+	font-size: 80%;
+	padding: 2% 6%;
+}
+
+
+.mailing-list {
+
+	border-top: 4px solid $secondary;
+	padding: 8% 8%;
+	margin-top: 10%;
+}

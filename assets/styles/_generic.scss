@@ -1,0 +1,48 @@
+.generic {
+
+
+	h2 {text-align: center; margin-top: 4%;}
+
+	p {
+
+		color: lighten($base, 25%);
+	}
+
+	#intro {
+
+		padding: 2% 0;
+	}
+
+	main {
+
+		width: 70%;
+	}
+
+}
+
+
+.generic--intro {
+
+		text-align: center;
+		margin-top: 7%;
+
+
+		 p {font-size: 140%;}
+
+		 figure img {
+
+		 height: 300px;
+		 width: 100%;
+
+		
+			}
+
+		 a {font-weight: 700;}
+
+}
+
+
+.generic--main {}
+
+
+

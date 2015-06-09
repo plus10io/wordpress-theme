@@ -1,0 +1,56 @@
+.container {
+
+	@include outer-container(100%);
+}
+
+
+
+#home {
+	
+	background: #fff;
+	min-height: 600px;
+	background-size: cover;
+
+	em {
+
+	  	color: lighten($base, 40%);
+	  	font-style: italic;
+	  	font-size: 60%;
+	  }
+}
+
+
+#home h1 {
+
+	  padding: 3em 0.5em;
+
+
+}
+
+
+#home {
+
+	img {
+
+		overflow: hidden;
+	}
+}
+
+#intro {
+
+	padding: 6em 0 10em;
+
+	button {
+
+		a {color: $primary;}
+		text-align: center;
+		font-size: 150%;
+		background: none;
+		border: 2px solid $primary;
+		
+	}
+}
+
+// test full with image
+
+

@@ -1,0 +1,80 @@
+body { font-family: $body;}
+h1,h2,h2,h4 {font-family: $heading;}
+
+
+		h2 {  margin-bottom: 0.3%;}
+
+		h1 { text-align: center; margin-bottom: 0;}
+
+
+.who-what {
+
+	a {
+		color: #fff;
+		font-weight: 700;
+
+		&:hover {
+
+			color: darken($secondary,10%);
+		}
+	}
+
+	h2,h3 {color: #fff;}
+
+	p,ul,h4 {
+		color: darken($secondary, 10%);
+		margin-bottom: 1em;
+	}
+
+	p {font-size: 120%; }
+
+	button {color: darken($secondary, 10%);padding: 2% 4%; background: #fff;
+
+		a {color: $secondary;}
+
+		&:hover {
+
+			background: darken(#fff, 10%);		}
+
+	 }
+}
+
+
+blockquote {
+
+	margin: 4% 0;
+	font-size: 1.2em;
+	border-left: 5px solid $base;
+	padding: 2% 5%;
+	color: $base;
+	background: lighten($base, 70%);
+
+	&::after{
+	//	content: '"';
+		font-family: Baskerville, Georgia, serif;
+		font-style: italic;
+		font-size: 10em;
+		z-index: 999999;
+		position: absolute;
+		top: -47px;
+		left: 39px;
+		color: lighten($base, 40%);
+
+	}
+}
+
+hr {
+  width: 5%;
+  margin: 0 auto;
+  border-bottom: 5px solid $primary;
+  margin-bottom: 1em;
+}
+
+em {
+
+	background: lighten($primary, 40%);
+	color: $primary;
+	padding: 1px 2px;
+	font-style: normal;
+	border-radius: 3px;
+}

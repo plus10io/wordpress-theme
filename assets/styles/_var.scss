@@ -1,0 +1,17 @@
+// Colour vars
+
+$primary: $blue;
+$secondary: $blue-darken;
+$third: rgba(0, 215, 116, 1.0); // red
+
+
+$base:$dark-gray;
+$border: lighten($base, 60%);
+// Type vars
+
+$body: $base-font-family;
+$heading: $heading-font-family;
+
+
+$linkColor: $blue;
+$linkColorHover: $secondary;

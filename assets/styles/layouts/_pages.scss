@@ -1,0 +1,24 @@
+.single {}
+
+section {
+
+	h2 {text-align: center;}
+
+//	@include outer-container;
+
+	main {
+
+	margin: 5% 0;
+	@include span-columns(12);
+
+	@include media(768px) {
+
+	@include span-columns(8);
+	@include shift(2);
+
+
+	}
+
+
+	}
+}

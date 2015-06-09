@@ -1,0 +1,25 @@
+nav {
+
+	a {color: $base;}
+
+}
+
+.menu {
+
+		text-align: center;
+	@include media($medium-screen-up){
+
+		text-align: right;
+
+	}
+}
+
+.sub-nav {
+
+	font-size: 80%;
+	color: lighten($base, 60%);
+	float: right;
+	margin-right: 2.5%; 
+}
+
+

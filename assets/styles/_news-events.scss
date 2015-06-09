@@ -1,0 +1,19 @@
+#news-events {
+
+	@include outer-container;
+	margin-bottom: 5%;
+	padding: 5% 0;
+	@extend .bg-colour-wrap;
+
+}
+
+.latest--event, .latest--blog {
+
+	ul, li { list-style: none;}
+}
+
+
+.latest--event {}
+.latest--blog {}
+.latest--member {}
+.latest--startup {}

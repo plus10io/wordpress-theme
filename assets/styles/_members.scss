@@ -1,0 +1,116 @@
+#members {
+
+
+h2, h3 {text-align: center;}
+
+p {color: lighten($base,35%); text-align: center;}
+
+ul { 
+
+
+	li {
+
+		display: inline-block;
+		text-align: center;
+
+		.title {font-size: 80%}
+
+	}
+
+}
+
+
+.latest-startups {
+
+	margin-top: 4%;
+
+}
+
+.latest-members{
+
+	li {width: 32%;}
+}
+
+
+.members-full-list li {
+
+		padding: 0 2%;
+		line-height: 1;
+		margin-bottom: 4%;
+
+
+		img { border-radius: 200px; width: 100px; height: 100px;}
+
+		h5 { margin-top: 1em;}
+
+	}
+
+	.startups-full-list {
+
+		 img { max-width: 250px; }
+
+		 li {
+
+		 	  padding-right: 4%;
+		 }
+	}
+
+
+	.startups-full-list,  .members-full-list li  {
+
+		.title, a {font-size: 80%;}
+		.name {  margin-top: 6%; margin-bottom: 3%;}
+
+	}
+
+
+.see-all {
+
+  background: #2da5d5;
+  color: #fff;
+  padding: 5% 1%;
+  text-align: center;
+  top: -5%;
+  position: relative;
+
+}
+
+}
+
+
+/*  ----- 
+
+Co Workers Page
+
+-----*/
+
+
+
+
+#co-workers {
+
+
+	h2 {text-align: center; margin-top: 5%;}
+
+	main {
+
+
+			@include span-columns(12);
+
+				@include media(760px) {
+
+					@include span-columns(7);
+					@include shift(1);
+			}
+	}
+
+	aside {
+
+		@include span-columns(12);
+
+				@include media(760px) {
+
+					@include span-columns(4);
+			}
+	}
+}

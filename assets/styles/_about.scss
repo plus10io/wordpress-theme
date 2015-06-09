@@ -1,0 +1,60 @@
+.who-what {
+
+	min-height: 500px;
+}
+
+
+#about-img {
+
+	background: url('../images/about-section1.jpg') no-repeat; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	background-position: center center;
+}
+
+#about-img2 {
+
+	background: url('../images/about-section2.jpg') no-repeat; 
+	@extend #about-img;
+
+}
+
+#what-we-do {
+
+	background: linear-gradient(
+	     rgba($primary, 0.9), 
+	     rgba($primary, 0.9)), 
+         url('../images/stock4.jpg') no-repeat; 
+    height: 500px;
+
+	ul {margin-bottom: 20px;}
+
+	p {
+
+		 margin-bottom: 65px;
+
+	}
+
+}
+
+
+
+
+#who-we-are {
+
+	 	background: linear-gradient(
+	     rgba($primary, 0.9), 
+	     rgba($primary, 0.9)), 
+	 	url('../images/stock3.jpg') no-repeat; 
+	 	
+
+
+
+}
+
+
+.about-main {
+
+	h2 {text-align: center;}
+}
